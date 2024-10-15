@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+  }
+  body {
+    font-family: sans-serif;
+  }
+  /**/
+  nav {
+    background: linear-gradient(to right,rgb(99, 98, 98),black, black,black,black, black,black);
+    position: fixed;
+    padding: 16px 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0px;
+    right: 0px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .menu {
+    text-transform: uppercase;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    color: aliceblue;
+  }
+  
+  #logo {
+    width: 25px;
+    margin: 6px;
+    cursor: alias;
+  }
+  
+  li {
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    list-style: none;
+    transition-property: background-color;
+    transition-duration: 1s;
+    flex-grow: 1;
+  }
+  
+  li:hover {
+    background: linear-gradient(90deg, rgb(126, 126, 183), purple);
+  }
+  
+  /* FOOTER*/
+  footer {
+    text-align: center;
+    background: linear-gradient(90deg, rgb(126, 126, 183), purple);
+  }
+  
+  .container-footer {
+     padding: 20px;
+  }
+  .co {
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 8px auto;
+    gap: 16px;
+    box-shadow: 0 0 1px 2px wheat;
+    border-radius: 20px;
+    font-size: 1.5rem;
+  }
+  
+  i {
+    font-size: 50px;
+  }
+  i:hover {
+    color: aliceblue;
+  }
+  
+  .footer-p {
+    background: linear-gradient(to right,rgb(99, 98, 98),black, black,black,black, black,black);
+    font-size: 1 rem;
+    color: #fff;
+    padding: 20px;
+  }
+  .contactanos{
+  font-size: 40px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  #icono{
+      color: rgb(253, 250, 250);
+      margin-top: 5px ;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  #body{
+      background: linear-gradient(50deg,#15ff00, #8f008f);
+      height: 50vh;
+      background-image: linear-gradient(rgba(90, 84, 84, 0.845), rgba(70, 63, 63, 0.9)), url(ropa.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: grid;
+      justify-content: center;
+      align-items: end;
+  }
+  
+  .container-details{
+      width: 90%;
+      margin: auto;
+  }
+  details{
+    
+      font-size: 1.5rem;
+      font-family: fantasy;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+  }
+  
+  #calzadoS, #remeraS, #pantaloneS, #accesorioS{
+    
+      padding-top: 50px;
+      padding-bottom: 20px;
+      padding-left: 30px;
+      margin: auto;
+      scroll-margin: 50px;
+  }
+  #calzadoS{
+      background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(calzados.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  #remeraS{
+     
+      background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(remeras.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    } 
+  
+  #pantaloneS{
+      background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(pantalon.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  #accesorioS{
+      background-image: linear-gradient(rgba(244, 225, 225, 0.635), rgba(134, 103, 103, 0.964)), url(gorra.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  }
+  .sub{
+    
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(5px);
+      justify-content: center;
+      font-size: 3rem;
+      gap: 20px;
+  
+  }
+  summary:hover{
+      cursor: pointer;
+  }
+  h3{
+      font-variant-caps:normal ;
+      font-size: 3rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #id{
+      padding: 0 10% 2% 10%;
+      font-size: 2rem;
+      text-align: center;
+      color: #ffffff95;
+  }
+  .fa-whatsapp{
+    color: yellowgreen;
+  }
+  .fa-facebook{
+    color: blue;
+  }
+  .fa-instagran{
+    color: purple;
+  }
+  .fa-brands{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+  }
+  .Sub{
+    display: flex;
+    flex-direction: column;
+  }
+  @media (width < 700px) {
+      .sub{
+          font-size: 1.8rem;
+      }
+  #remeraS, #pantaloneS, #calzadoS, #accesorioS {
+     scroll-margin: 120px;
+  }
+  }
+  

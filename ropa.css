@@ -1,0 +1,85 @@
+#icono{
+    color: rgb(253, 250, 250);
+    margin-top: 5px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+#body{
+    background: linear-gradient(50deg,#15ff00, #8f008f);
+    height: 50vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(ropa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+details{
+    font-size: 1.5rem;
+    font-family: fantasy;
+    margin: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+}
+footer{
+    height: 35.2vh;
+    background: linear-gradient(90deg, pink, purple);
+}
+i{
+    display:inline;
+}
+p{
+    display: inline;
+    font-size: 1.5rem
+}
+#calzadoS{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(calzados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#remeraS{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(remeras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#pantaloneS{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(pantalon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#accesorioS{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(gorra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    font-size: 4rem;
+}
+summary:hover{
+    cursor: pointer;
+}
+h3{
+    font-variant-caps:normal ;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#id{
+    font-size: 1.5rem;
+}
+#contactanos{
+    display: grid;
+    row-gap: 1fr 1fr 1fr;
+}
+.co{
+    border: 5px;
+    border-style:ridge;
+    width: 100%;
+    height: 100%;
+    border-color: red;
+}
